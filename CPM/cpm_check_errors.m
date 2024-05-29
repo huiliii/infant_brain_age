@@ -37,13 +37,6 @@ if ndims(x)==3
     end
 end
 
-% Check for nodes with values of 0 (missing nodes within a subject)
-row_sum = squeeze(sum(abs(x), 2));
-zero_node = sum(row_sum==0);
-zero_node_subjects = sum( zero_node>0);
-if zero_node_subjects>0
-    warning('Data: %d subjects have missing nodes. Please check your data.',zero_node_subjects)
-end
 
 % Check for Inf or NaN 
 if length(find(isinf(x)))>0
