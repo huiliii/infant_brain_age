@@ -10,7 +10,7 @@ Operating System: macOS Big Sur 11.3.1
 MATLAB installation guide, please check https://www.mathworks.com/help/install/ug/install-products-with-internet-connection.html
 Typical install time for a "normal" desktop computer according to MATLAB: 30-45 mins
 
-3. Demo
+3. Demo\newline
 To run the brain_age_prediction.m on test data
   a. load test_data_set.mat from ./data
   b. add the function paths ./utils, ./CPM to MATLAB
