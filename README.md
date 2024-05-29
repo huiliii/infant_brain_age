@@ -2,8 +2,8 @@
 
 The codes of our paper entitiled "Brain age prediction and deviations from normative trajectories in the neonatal connectome"
 <br />
-1. System requirements
-Softwares: MATLAB_R2023a
+1. System requirements <br />
+Softwares: MATLAB_R2023a <br />
 Operating System: macOS Big Sur 11.3.1
 
 2. Installation guide
